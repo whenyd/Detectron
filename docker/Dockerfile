@@ -17,7 +17,7 @@ WORKDIR /detectron/lib
 RUN make
 
 # Build custom ops
-RUN make ops
+# RUN make ops
 
 # Go to Detectron root
 WORKDIR /detectron
