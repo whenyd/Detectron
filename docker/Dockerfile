@@ -1,5 +1,5 @@
 # Use Caffe2 image as parent image
-FROM caffe2:cuda8-cudnn6-all-options
+FROM caffe2ai/caffe2:c2v0.8.1.cuda8.cudnn7.ubuntu16.04
 
 # Install Python dependencies
 RUN pip install numpy pyyaml matplotlib opencv-python>=3.0 setuptools Cython mock
